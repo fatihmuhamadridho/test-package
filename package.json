@@ -1,5 +1,5 @@
 {
-  "name": "fatih-test-package",
+  "name": "fatih-test-package-v2",
   "version": "1.0.0",
   "description": "testing membuat package di github",
   "main": "index.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fatihmuhamadridho/test-package.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "test-package"
