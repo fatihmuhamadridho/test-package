@@ -1,0 +1,22 @@
+{
+  "name": "fatih-test-package",
+  "version": "1.0.0",
+  "description": "testing membuat package di github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihmuhamadridho/test-package.git"
+  },
+  "keywords": [
+    "test-package"
+  ],
+  "author": "fatih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihmuhamadridho/test-package/issues"
+  },
+  "homepage": "https://github.com/fatihmuhamadridho/test-package#readme"
+}
