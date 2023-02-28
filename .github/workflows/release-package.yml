@@ -32,7 +32,7 @@ jobs:
       - name: replace token
         run: echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
