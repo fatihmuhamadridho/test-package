@@ -1,1 +1,0 @@
-@fatihmuhamadridho:registry=https://npm.pkg.github.com
