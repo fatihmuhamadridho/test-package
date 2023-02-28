@@ -29,10 +29,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - name: replace token
-        run: echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
-        env:
-          NODE_AUTH_TOKEN: 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
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
