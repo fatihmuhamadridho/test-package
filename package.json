@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fatihmuhamadridho/test-package/issues"
   },
-  "homepage": "https://github.com/fatihmuhamadridho/test-package#readme"
+  "homepage": "https://github.com/fatihmuhamadridho/test-package#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
